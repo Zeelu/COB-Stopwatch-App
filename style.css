@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(BG2.jpg);
+}
+h1{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    font-family:  "Open Sans", Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+}
+
+#timer{
+    text-align: center;
+    margin-top: 5%;
+    font-size: xxx-large;
+    color: rgb(0, 0, 0);
+}
+#layout{
+    margin-top: 2%;
+    text-align: center;
+}
+.choice{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color:rgb(146, 157, 157);
+    padding: 10px 45px;
+    margin: 20px;
+    font-family:  "Open Sans", Helvetica, Arial, Lucida, sans-serif;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+.choice:hover{
+    background-color:rgba(0, 0, 0, 0.253);
+}
